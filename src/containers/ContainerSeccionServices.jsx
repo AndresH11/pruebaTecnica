@@ -14,17 +14,17 @@ const ContainerSeccionServices = () =>{
       />
       <ServicesCard
       icon={ <span className="material-symbols-outlined">monitoring</span> }
-      title={'Entrepreneurs'}
+      title={'Capital Markets'}
       description = {'wi work with ecosystem leaders, corporations and startups worldwide.'}
       />
       <ServicesCard
       icon={ <span className="material-symbols-outlined">paid</span> }
-      title={'Entrepreneurs'}
+      title={'Business Plan'}
       description = {'wi work with ecosystem leaders, corporations and startups worldwide.'}
       />
       <ServicesCard
       icon={ <span className="material-symbols-outlined">emoji_objects</span> }
-      title={'Entrepreneurs'}
+      title={'Startups'}
       description = {'wi work with ecosystem leaders, corporations and startups worldwide.'}
       />
       </div>
