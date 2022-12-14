@@ -15,6 +15,7 @@
 .headerNav .logo h1 {
   font-weight: 300;
   font-size: 30px;
+  margin-bottom: 20px;
 }
 
 .headerNav .navbar ul {
@@ -38,6 +39,7 @@
   display: flex;
   gap: 10px;
   margin-left: 10px;
+  margin-top: 20px;
 }
 
 .headerNav .containerSearch i {
@@ -71,4 +73,11 @@
   top:20px;
   left: 20px;
   border-radius: 10px;
+}
+
+
+@media (min-width: 766px) {
+  .headerNav .containerSearch {
+    margin-top: 0px;
+  }
 }
