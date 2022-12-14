@@ -1,0 +1,116 @@
+.containerSeccionAllStartUp {
+  margin-top: 60px;
+}
+
+.containerSeccionAllStartUp .containerTitle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.containerSeccionAllStartUp .containerTitle .containerTitle-texto h1 {
+  margin-bottom: 20px;
+  color: rgb(1, 1, 167);
+  font-size: 30px;
+}
+
+.containerSeccionAllStartUp .containerTitle .containerTitle-texto p {
+  color: grey;
+}
+
+.containerSeccionAllStartUp .buttonGetStarted {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(1, 1, 167);
+  color: blue;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.containerBody {
+  display: grid;
+  margin-top: 60px;
+}
+
+.containerBody .containerCardView{
+  justify-self: center;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.containerBody .containerCardView .card11{
+  position: absolute;
+  z-index: 2;
+}
+
+.containerBody .containerCardView .card22 {
+  position: absolute;
+  top: 24px;
+  left: 97px;
+  z-index: 3;
+}
+
+.containerBody .containerCardView .puntos1{
+  position: absolute;
+  bottom: 107px;
+  left: -41px;
+}
+
+.containerBody .containerCardView .puntos2 {
+  position: absolute;
+  right: 97px;
+  top: 2px;
+}
+
+
+.containerPlanBusiness h1{
+  color: rgb(1, 1, 167);
+}
+
+.containerPlanBusiness .containerPlanBusiness-description {
+  color: grey;
+  margin-top: 20px
+}
+
+.financiero {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
+
+.financiero span {
+  font-size: 40px;
+}
+
+.financiero .financieroIcon span {
+  color: blue;
+}
+
+.financiero .financieroText .titleFinaciero {
+  color: rgb(1, 1, 167);
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.financiero .financieroText .contenidoFinanciero {
+  color: grey;
+  font-size: 15px;
+}
+
+
+
+
+@media (min-width: 1023px) {
+  .containerBody {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 766px) {
+  .containerBody {
+    padding: 0 57px;
+  }
+}

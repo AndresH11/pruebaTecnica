@@ -1,0 +1,15 @@
+.cuadroPunto {
+  width: 100px;
+  height: 50px;
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.cuadroPunto div {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: rgb(198, 22, 233);
+}

@@ -1,0 +1,45 @@
+.containerSeccionEmpowering {
+  color: white;
+  padding-bottom: 70px;
+  background: rgb(33,25,156);
+  background: linear-gradient(30deg, rgba(33,25,156,1) 0%, rgba(7,7,130,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.containerTextAndVideo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ContainerHeaders {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.containerTextAndVideo h1 {
+  font-size: 45px;
+  margin-top: 130px;
+  margin-bottom: 30px;
+}
+
+.containerTextAndVideo p {
+  max-width: 604px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.containerTextAndVideo button {
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50%;
+  color: blue;
+  background-color: white;
+  cursor: pointer;
+}
+
+@media (min-width:1024px) {
+  .containerTextAndVideo h1 {
+    font-size: 70px;
+  }
+}

@@ -1,0 +1,74 @@
+.headerNav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 30px;
+  color: white;
+}
+
+.headerNav .navbar{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.headerNav .logo h1 {
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.headerNav .navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+}
+
+.headerNav .navbar ul div{
+  display: flex;
+  cursor: pointer;
+  position: relative;
+}
+
+.headerNav .navbar ul li {
+  font-size: 20px;
+}
+
+.headerNav .containerSearch {
+  display: flex;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.headerNav .containerSearch i {
+  font-size: 24px;
+}
+
+.headerNav .containerSearch .bx-search-alt-2,
+.headerNav .containerSearch .bx-cart
+{
+  cursor: pointer;
+}
+
+.headerNav .containerSearch button {
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(255 255 255 / 80%);
+  color: blue;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.headerNav .navbar ul li:hover::before{
+  content: '';
+  width: 5px;
+  height: 5px;
+  background-color: rgb(50, 214, 50);
+  position: absolute;
+  top:20px;
+  left: 20px;
+  border-radius: 10px;
+}
